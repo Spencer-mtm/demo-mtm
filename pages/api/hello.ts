@@ -2,7 +2,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 const hello = (req: NextApiRequest, res: NextApiResponse) => {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ name: 'Spencer Kyle' })
 }
 
-export default hello
+export default hello there
